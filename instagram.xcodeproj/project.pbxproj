@@ -30,8 +30,17 @@
 		9235DA2B2A61854100AE63C7 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235DA2A2A61854100AE63C7 /* SearchResultViewController.swift */; };
 		9235DA2D2A6185A300AE63C7 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235DA2C2A6185A300AE63C7 /* PostEditorViewController.swift */; };
 		9235DA2F2A6185AB00AE63C7 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235DA2E2A6185AB00AE63C7 /* PublishPostViewController.swift */; };
+		924F2BFA2A7506A4009CEFA7 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2BF92A7506A4009CEFA7 /* PhotoCollectionViewCell.swift */; };
+		924F2BFC2A7506FF009CEFA7 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2BFB2A7506FF009CEFA7 /* ProfileInfoHeaderCollectionReusableView.swift */; };
+		924F2BFE2A75075C009CEFA7 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2BFD2A75075C009CEFA7 /* ProfileTabsCollectionReusableView.swift */; };
+		924F2C002A752151009CEFA7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2BFF2A752151009CEFA7 /* Models.swift */; };
+		9252F4502A73B17700B74F20 /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9252F44F2A73B17700B74F20 /* IGFeedPostTableViewCell.swift */; };
+		9252F4532A73CF8600B74F20 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9252F4522A73CF8600B74F20 /* IGFeedPostHeaderTableViewCell.swift */; };
+		9252F4552A73CFA400B74F20 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9252F4542A73CFA400B74F20 /* IGFeedPostActionsTableViewCell.swift */; };
+		9252F4572A73CFBF00B74F20 /* IGFeedPostInteractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9252F4562A73CFBF00B74F20 /* IGFeedPostInteractionTableViewCell.swift */; };
+		9252F4592A742FEB00B74F20 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9252F4582A742FEB00B74F20 /* FormTableViewCell.swift */; };
+		9253B4D02A7270AD00BCD737 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9253B4CF2A7270AD00BCD737 /* GoogleService-Info.plist */; };
 		926C8C6C2A653FB600941EAC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926C8C6B2A653FB600941EAC /* Extensions.swift */; };
-		92E6C4152A62D4F30073087B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92E6C4142A62D4F30073087B /* GoogleService-Info.plist */; };
 		92E6C4182A62E5640073087B /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6C4172A62E5640073087B /* DatabaseManager.swift */; };
 		92E6C41A2A62E5E90073087B /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6C4192A62E5E90073087B /* AuthManager.swift */; };
 		92E6C41C2A62E6370073087B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6C41B2A62E6370073087B /* StorageManager.swift */; };
@@ -84,8 +93,17 @@
 		9235DA2A2A61854100AE63C7 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		9235DA2C2A6185A300AE63C7 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		9235DA2E2A6185AB00AE63C7 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		924F2BF92A7506A4009CEFA7 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		924F2BFB2A7506FF009CEFA7 /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		924F2BFD2A75075C009CEFA7 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
+		924F2BFF2A752151009CEFA7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Models.swift; path = "instagram/Views/CollectionView Headers/Models.swift"; sourceTree = SOURCE_ROOT; };
+		9252F44F2A73B17700B74F20 /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		9252F4522A73CF8600B74F20 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		9252F4542A73CFA400B74F20 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		9252F4562A73CFBF00B74F20 /* IGFeedPostInteractionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostInteractionTableViewCell.swift; sourceTree = "<group>"; };
+		9252F4582A742FEB00B74F20 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
+		9253B4CF2A7270AD00BCD737 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		926C8C6B2A653FB600941EAC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		92E6C4142A62D4F30073087B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		92E6C4172A62E5640073087B /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		92E6C4192A62E5E90073087B /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		92E6C41B2A62E6370073087B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
@@ -181,6 +199,7 @@
 		9235DA0C2A6182A700AE63C7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				924F2BFF2A752151009CEFA7 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +207,8 @@
 		9235DA0D2A6182AE00AE63C7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				924F2BF82A74F9BB009CEFA7 /* CollectionView Headers */,
+				9252F44E2A73B15800B74F20 /* Cells */,
 				9235D9E52A61823B00AE63C7 /* Assets.xcassets */,
 				9235DA102A61831E00AE63C7 /* storyboards */,
 			);
@@ -206,7 +227,7 @@
 		9235DA0F2A6182B900AE63C7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				92E6C4142A62D4F30073087B /* GoogleService-Info.plist */,
+				9253B4CF2A7270AD00BCD737 /* GoogleService-Info.plist */,
 				9235D9DC2A61823B00AE63C7 /* AppDelegate.swift */,
 				9235D9DE2A61823B00AE63C7 /* SceneDelegate.swift */,
 				92E6C41B2A62E6370073087B /* StorageManager.swift */,
@@ -256,12 +277,42 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		924F2BF82A74F9BB009CEFA7 /* CollectionView Headers */ = {
+			isa = PBXGroup;
+			children = (
+				924F2BFB2A7506FF009CEFA7 /* ProfileInfoHeaderCollectionReusableView.swift */,
+				924F2BFD2A75075C009CEFA7 /* ProfileTabsCollectionReusableView.swift */,
+			);
+			path = "CollectionView Headers";
+			sourceTree = "<group>";
+		};
+		9252F44E2A73B15800B74F20 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9252F4512A73CF5D00B74F20 /* Home Feed */,
+				9252F4582A742FEB00B74F20 /* FormTableViewCell.swift */,
+				924F2BF92A7506A4009CEFA7 /* PhotoCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9252F4512A73CF5D00B74F20 /* Home Feed */ = {
+			isa = PBXGroup;
+			children = (
+				9252F44F2A73B17700B74F20 /* IGFeedPostTableViewCell.swift */,
+				9252F4522A73CF8600B74F20 /* IGFeedPostHeaderTableViewCell.swift */,
+				9252F4542A73CFA400B74F20 /* IGFeedPostActionsTableViewCell.swift */,
+				9252F4562A73CFBF00B74F20 /* IGFeedPostInteractionTableViewCell.swift */,
+			);
+			path = "Home Feed";
+			sourceTree = "<group>";
+		};
 		92E6C4162A62E4ED0073087B /* General */ = {
 			isa = PBXGroup;
 			children = (
+				9235DA242A61852300AE63C7 /* SettingsViewController.swift */,
 				9235DA202A61850300AE63C7 /* PostViewController.swift */,
 				9235DA222A61851500AE63C7 /* EditProfileViewController.swift */,
-				9235DA242A61852300AE63C7 /* SettingsViewController.swift */,
 				9235DA262A61852B00AE63C7 /* ListViewController.swift */,
 				9235DA282A61853800AE63C7 /* SearchViewController.swift */,
 				9235DA2C2A6185A300AE63C7 /* PostEditorViewController.swift */,
@@ -387,7 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9235D9E92A61823B00AE63C7 /* LaunchScreen.storyboard in Resources */,
-				92E6C4152A62D4F30073087B /* GoogleService-Info.plist in Resources */,
+				9253B4D02A7270AD00BCD737 /* GoogleService-Info.plist in Resources */,
 				9235D9E62A61823B00AE63C7 /* Assets.xcassets in Resources */,
 				9235D9E42A61823B00AE63C7 /* Main.storyboard in Resources */,
 			);
@@ -457,16 +508,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				9235DA232A61851500AE63C7 /* EditProfileViewController.swift in Sources */,
+				924F2BFC2A7506FF009CEFA7 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */,
 				9235DA122A6183BC00AE63C7 /* ExploreViewController.swift in Sources */,
 				9235DA2F2A6185AB00AE63C7 /* PublishPostViewController.swift in Sources */,
 				9235DA142A6183C700AE63C7 /* CameraViewController.swift in Sources */,
 				9235D9E12A61823B00AE63C7 /* HomeViewController.swift in Sources */,
 				9235DA1F2A61849700AE63C7 /* RegistrationViewController.swift in Sources */,
+				9252F4532A73CF8600B74F20 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				9235DA2D2A6185A300AE63C7 /* PostEditorViewController.swift in Sources */,
+				924F2C002A752151009CEFA7 /* Models.swift in Sources */,
 				92E6C41C2A62E6370073087B /* StorageManager.swift in Sources */,
+				9252F4592A742FEB00B74F20 /* FormTableViewCell.swift in Sources */,
+				924F2BFE2A75075C009CEFA7 /* ProfileTabsCollectionReusableView.swift in Sources */,
 				9235DA212A61850300AE63C7 /* PostViewController.swift in Sources */,
 				92E6C4182A62E5640073087B /* DatabaseManager.swift in Sources */,
 				9235DA162A6183D300AE63C7 /* NotificationsViewController.swift in Sources */,
+				9252F4502A73B17700B74F20 /* IGFeedPostTableViewCell.swift in Sources */,
+				924F2BFA2A7506A4009CEFA7 /* PhotoCollectionViewCell.swift in Sources */,
+				9252F4572A73CFBF00B74F20 /* IGFeedPostInteractionTableViewCell.swift in Sources */,
 				9235DA2B2A61854100AE63C7 /* SearchResultViewController.swift in Sources */,
 				9235DA1D2A61848B00AE63C7 /* LoginViewController.swift in Sources */,
 				926C8C6C2A653FB600941EAC /* Extensions.swift in Sources */,
@@ -475,6 +534,7 @@
 				92E6C41A2A62E5E90073087B /* AuthManager.swift in Sources */,
 				9235D9DD2A61823B00AE63C7 /* AppDelegate.swift in Sources */,
 				9235D9DF2A61823B00AE63C7 /* SceneDelegate.swift in Sources */,
+				9252F4552A73CFA400B74F20 /* IGFeedPostActionsTableViewCell.swift in Sources */,
 				9235DA272A61852B00AE63C7 /* ListViewController.swift in Sources */,
 				9235DA252A61852300AE63C7 /* SettingsViewController.swift in Sources */,
 			);
@@ -660,8 +720,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -670,6 +729,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.techheroes.instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -690,8 +752,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -700,6 +761,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.techheroes.instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

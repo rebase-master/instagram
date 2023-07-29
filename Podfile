@@ -16,6 +16,7 @@ target 'instagram' do
     # Pods for testing
  # end
 
+pod 'SDWebImage'
 # Firebase
 pod 'FirebaseInstallations'
 pod 'FirebaseAuth'
